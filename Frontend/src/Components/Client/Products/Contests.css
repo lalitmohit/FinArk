@@ -1,0 +1,59 @@
+:root {
+    --main-bg-color: #667d834b;
+    --accent-color: #2da95c;
+    --light-bg-color: #646060;
+    --button-hover-color: #10847e;
+    --text-color: #646060;
+    --border-color: white;
+  }
+
+.Container-Contests{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 20px;
+    /* width: 80%; */
+    margin: 200px 550px 0px 250px;
+    background-color: rgba(24, 74, 148, 0.562);
+    padding: 15px 0px 0px 170px;
+    border-radius: 20px;
+    color: var(--text-color);
+
+}
+
+.ContestName{
+    margin: 10px 0px 10px 0px;
+}
+
+.Container-Contests input{
+    padding: 10px;
+}
+
+.ContestId{
+    margin: 10px 0px 10px 0px;
+}
+
+.ContestStatus{
+    margin: 10px 0px 10px 0px;
+}
+
+.CreatedDate{
+    margin: 10px 0px 10px 0px;
+}
+
+
+.Submit{
+    padding: 15px 77px;
+    margin: 10px 0px 20px 0px;
+    /* text-decoration: none; */
+    border-color: #64606049;
+    background-color: #64606049;
+    color: var(--text-color);
+}
+
+.Submit:hover{
+    background-color: #2d4ea9d3;
+    color: white;
+    cursor: pointer;
+}

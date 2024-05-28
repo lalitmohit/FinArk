@@ -1,0 +1,50 @@
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-dropdown-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 12px 16px;
+  }
+  
+  .custom-dropdown-content .date-picker {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .status-dropdown {
+    width: 100%;
+  }
+
+  .all-drop{
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: black;
+  }
+  .item-status{
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    padding-left: 5px;
+  }

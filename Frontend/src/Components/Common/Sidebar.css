@@ -1,0 +1,372 @@
+:root {
+    --main-bg-color: #667d834b;
+    --accent-color: #2da95c;
+    --light-bg-color: #646060;
+    --button-hover-color: #10847e;
+    --text-color: #646060;
+    --border-color: white;
+  }
+
+
+.Container-Sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* margin-left: 20px; */
+    font-family: "Poppins";
+    width: 100%;
+    background-color: var(--main-bg-color);
+    /* border-right: 3px solid #2da95c; */
+  }
+
+
+
+.Sidebar-OnePocket{
+    display: flex;
+    margin:20px 0px 8px 10px;   
+    /* padding: 10px; */
+
+}
+
+.Nav-OnePocket {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  }
+  
+.Nav-OnePocket:hover .Sidebar-OnePocket {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+
+.Sidebar-OnePocket img{
+    height: 40px;
+    margin-right: 4px;
+}
+
+.Text-OnePocket{
+    padding-top: 11px;
+    color: var(--text-color);
+}
+
+.Sidebar-Products{
+    display: flex;
+    text-decoration: none;
+    margin:20px 0px 0px 10px;
+    padding:10px
+}
+
+.Nav-Products{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Products:hover .Sidebar-Products {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+
+.Sidebar-Products img{
+    height: 20px;
+    text-decoration: none;
+    
+}
+
+.Products{
+    padding-top: 0px;
+    color: var(--text-color);
+    text-decoration: none;
+    /* margin: 10px; */
+}
+
+.Sidebar-Customers{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+
+.Nav-Customers{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Customers:hover .Sidebar-Customers {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Customers img{
+    height: 20px;
+}
+
+.Customers{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-ChatSupport{
+    margin:10px 0px 0px 10px;
+    display: flex;
+    padding:10px;
+}
+
+.Nav-ChatSupport{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-ChatSupport:hover .Sidebar-ChatSupport {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-ChatSupport img{
+    height: 20px;
+}
+
+.ChatSupport{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Campaigns{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+.Nav-Campaigns{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Campaigns:hover .Sidebar-Campaigns {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Campaigns img{
+    height: 20px;
+}
+
+.Campaigns{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Credits{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px
+}
+
+.Nav-Credits{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Credits:hover .Sidebar-Credits {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Credits img{
+    height: 20px;
+}
+
+.Credits{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Inventory{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+.Nav-Inventory{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Inventory:hover .Sidebar-Inventory {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Inventory img{
+    height: 20px;
+}
+
+.Inventory{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Analytics{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px
+}
+
+.Nav-Analytics{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Analytics:hover .Sidebar-Analytics {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Analytics img{
+    height: 20px;
+}
+
+.Analytics{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Factory{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+.Nav-Factory{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Factory:hover .Sidebar-Factory {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Factory img{
+    height: 20px;
+}
+
+.Factory{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+
+.Sidebar-Users{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+.Nav-Users{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Users:hover .Sidebar-Users {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Users img{
+    height: 20px;
+}
+
+.Users{
+    padding-top: 5px;
+    color: var(--text-color);
+}
+
+.Sidebar-Roles{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+.Nav-Roles{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Roles:hover .Sidebar-Roles {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Roles img{
+    height: 20px;
+}
+
+.Roles{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Dashboard{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+}
+
+.Nav-Dashboard{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Dashboard:hover .Sidebar-Dashboard {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Dashboard img{
+    height: 20px;
+}
+
+.Dashboard{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Profile{
+    display: flex;
+    margin:10px 0px 0px 10px;
+    padding:10px
+}
+
+.Nav-Profile{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Profile:hover .Sidebar-Profile {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Profile img{
+    height: 20px;
+}
+
+.Profile{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+
+.Sidebar-Company{
+    display: flex;
+    margin:10px 0px 150px 10px;
+    padding:10px;
+}
+
+.Nav-Company{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-Company:hover .Sidebar-Company {
+    background-color: #f0f0f0; /* Change this to the desired hover color */
+  }
+
+.Sidebar-Company img{
+    height: 20px;
+}
+
+.Company{
+    padding-top: 0px;
+    color: var(--text-color);
+}
+

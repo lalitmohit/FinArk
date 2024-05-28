@@ -1,0 +1,19 @@
+
+.App {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.Sideb {
+  /* width: 100%; */
+  width: 20%;
+}
+/* .nosideb{
+  width: 10%;
+} */
+
+.Content {
+  width: 80%;
+  /* margin-left: 40px; */
+}

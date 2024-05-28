@@ -1,0 +1,159 @@
+:root {
+    --main-bg-color: #667d834b;
+    --accent-color: #2da95c;
+    --light-bg-color: #646060;
+    --button-hover-color: #10847e;
+    --text-color: #646060;
+    --border-color: white;
+  }
+
+.Container-Products{
+    /* margin-left: 50px; */
+    width: 100%;
+    margin-top: 30px;
+    font-family: "Poppins";
+
+}
+
+.Products-Heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Products-Heading-Left-Top-Logo{
+    margin-left: 20px;
+}
+
+.Products-Heading img{
+    height: 25px;
+}
+
+.Products-Heading-Right{
+    display: flex;
+}
+
+.Products-Heading-Credits {
+    margin-right: 30px;
+    display: flex;
+}
+
+.Total-Credits{
+    padding-top: 5px;
+    margin-left: 5px;
+    color:var(--text-color) ;
+}
+
+.Products-Heading-Admin{
+    margin-right: 30px;
+    display: flex;
+}
+
+.Admin{
+    padding-top: 5px;
+    margin-left: 5px;
+    color:var(--text-color) ;
+}
+
+
+.Product-Operations{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+.Product-Operations-Text{
+    width: 50%;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-left: 10px;
+
+}
+
+.Product-Operations-Right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+.Product-Operations-Right input{
+    padding: 10px;
+    font-family: "Poppins";
+
+}
+
+.Product-Operations-Right-Filter button{
+    padding: 10px;
+    font-family: "Poppins";
+}
+
+.Product-Operations-Right-Export button{
+    padding: 10px;
+    font-family: "Poppins";
+}
+
+.Product-Operations-Right-Contest button{
+    padding: 10px;
+    background-color: #002efdb6;
+    border-color:#002efdb6;
+    border-radius: 5px;
+    font-family: "Poppins";
+}
+
+.Product-Operations-Right-Bulk-Product button{
+    padding: 10px;
+    background-color: #002efdb6;
+    border-color:#002efdb6;
+    border-radius: 5px;
+    font-family: "Poppins";
+}
+
+.Product-Operations-Right-Contest button:hover{
+    color: white;
+}
+
+.Product-Operations-Right-Bulk-Product button:hover{
+    color: white;
+}
+
+
+.Products-SubHeading-Text{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-around;
+    background-color: #64606025;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    /* font-size: 20px; */
+    /* color: var(--text-color); */
+}
+
+.Products-SubHeading-Text-4{
+    margin-right: 20px;
+}
+
+
+.Products-Body-Text-5 img{
+    height: 20px;
+}
+
+
+.Products-Body-Text{
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+
+
+.Edit-Logo{
+    margin-right: 30px;
+}
+
