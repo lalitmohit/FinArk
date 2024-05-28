@@ -18,7 +18,7 @@ const Contests = () => {
         // setErrorMessage("");
     
         try {
-          const response = await axios.post('http://localhost:8000/contests', {
+          const response = await axios.post('http://13.51.36.205:8000/contests', {
             contestName: contestName,
             contestId: contestId,
             contestStatus: isChecked ? 'active' : 'ended',

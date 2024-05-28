@@ -18,7 +18,7 @@ const Products = () => {
     useEffect(() => { 
         const data = async () => {
             try {
-                const response = await axios.get("http://localhost:8000/contests");
+                const response = await axios.get("http://13.51.36.205:8000/contests");
                 console.log("Data fetched: ", response.data);
                 setData(response.data);
             } catch (error) {
